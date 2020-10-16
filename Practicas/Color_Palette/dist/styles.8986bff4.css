@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(3, 20%);
+}
+
+.box {
+    background-color: aqua;
+    margin: 5px;
+    min-height: 10rem;
+}
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */

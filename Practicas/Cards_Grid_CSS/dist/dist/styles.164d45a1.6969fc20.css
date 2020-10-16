@@ -1,0 +1,104 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+  padding: 0;
+  width: 90vw;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 1rem;
+}
+
+.title {
+  align-items: center;
+  margin-right: 10px;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  height: 10vh;
+  width: 15vw;
+}
+
+img {
+  height: 100px;
+  width: 100%;
+}
+
+footer {
+  align-content: center;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+main {
+  display: grid;
+  flex-grow: 1;
+  gap: 0.3rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat 2, 1fr;
+  justify-items: center;
+}
+@media screen and (max-width: 824px) {
+  main {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat 5, 1fr;
+  }
+}
+
+figure {
+  border-bottom: 10px solid lightgray;
+  border-left: 20px solid lightgray;
+  border-right: 20px solid lightgray;
+  border-top: 10px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  max-width: 240px;
+  min-height: 40vh;
+  padding: 2px;
+}
+figure img {
+  height: 200px;
+  width: 100%;
+}
+figure figcaption {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 5px;
+}
+figure .description {
+  flex-grow: 1;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+figure .published {
+  font-weight: bold;
+  margin-right: 10px;
+  text-align: right;
+}
+figure .date {
+  color: #7BBE46;
+  font-weight: normal;
+}
+figure button {
+  background-color: #7BBE46;
+  border: none;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+
+/*# sourceMappingURL=/styles.164d45a1.6969fc20.css.map */

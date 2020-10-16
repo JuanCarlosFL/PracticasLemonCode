@@ -1,0 +1,127 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+body header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+body header .logo {
+  width: 15vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+body header img {
+  width: 100%;
+  height: auto;
+}
+body .container {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(3, 20%);
+}
+body .container .box {
+  border-radius: 5px;
+  margin: 5px;
+  min-height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container-1 .darken-1 {
+  background-color: #f32c1e;
+}
+body .container-1 .darken-2 {
+  background-color: #ea1c0d;
+}
+body .container-1 .darken-3 {
+  background-color: #d2190b;
+}
+body .container-1 .darken-4 {
+  background-color: #ba160a;
+}
+body .container-1 .lighten-1 {
+  background-color: #f55a4e;
+}
+body .container-1 .lighten-2 {
+  background-color: #f77066;
+}
+body .container-1 .lighten-3 {
+  background-color: #f8877f;
+}
+body .container-1 .lighten-4 {
+  background-color: #f99d97;
+}
+body .container-1 .base-color {
+  background-color: #F44336;
+}
+body .container-2 .darken-1 {
+  background-color: #3849a2;
+}
+body .container-2 .darken-2 {
+  background-color: #32408f;
+}
+body .container-2 .darken-3 {
+  background-color: #2b387c;
+}
+body .container-2 .darken-4 {
+  background-color: #252f69;
+}
+body .container-2 .lighten-1 {
+  background-color: #4d5ec1;
+}
+body .container-2 .lighten-2 {
+  background-color: #606fc7;
+}
+body .container-2 .lighten-3 {
+  background-color: #7280ce;
+}
+body .container-2 .lighten-4 {
+  background-color: #8591d5;
+}
+body .container-2 .base-color {
+  background-color: #3f51b5;
+}
+body .container-3 .darken-1 {
+  background-color: #449d48;
+}
+body .container-3 .darken-2 {
+  background-color: #3d8b40;
+}
+body .container-3 .darken-3 {
+  background-color: #357a38;
+}
+body .container-3 .darken-4 {
+  background-color: #2d682f;
+}
+body .container-3 .lighten-1 {
+  background-color: #5cb860;
+}
+body .container-3 .lighten-2 {
+  background-color: #6ec071;
+}
+body .container-3 .lighten-3 {
+  background-color: #80c883;
+}
+body .container-3 .lighten-4 {
+  background-color: #92cf94;
+}
+body .container-3 .base-color {
+  background-color: #4caf50;
+}
+body footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/*# sourceMappingURL=/styles.164d45a1.css.map */
